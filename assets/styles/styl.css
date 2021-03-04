@@ -1,0 +1,14 @@
+body {
+  /* background-color: rgb(18, 112, 18); */
+}
+div{
+  background-color: darkkhaki;
+  margin: 5px;
+  padding: 10px;
+}
+.a {
+background-color: yellow;
+}
+.a div.b {
+background-color: teal;
+}
