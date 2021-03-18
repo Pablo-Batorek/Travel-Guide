@@ -1,20 +1,35 @@
 <html>
-  <head>
-    <link rel="stylesheet" href="assets\styles\styl.css">
-    <title>
-      Travel guide
-    </title>
-  </head>
-  <body>
-    
-    <div class ="a">
-      <div class ="b">Travel - logo</div>
-    </div>
-    <div>Kiedyś znalazłbyś tu zdawkową informację – nazywam się Mikołaj i kocham podróże. Poważnie ? Co za nuda. Dużo od tego czasu się zmieniło. Imię i pasja do poznawania świata pozostały. To co nowe, to sposób pisania, więcej konkretów i próba pokazania ciekawych miejsc z nowej perspektywy. I chociaż nadal pracuję na etacie, sam sobie wytłumaczyłem, że życie w podroży tymczasowo realizuję na raty 😉 
 
-        Jestem kolekcjonerem wspomnień i zależy mi na tym, żeby Twój wyjazd też wywołał mnóstwo pozytywnych emocji. Znajdziesz tu więc pomysły na podróże, relacje z wypraw, praktyczne wskazówki. Tak więc rozgość się, a potem zacznij działać 🙂</div>
-    <div class="b">stopka</div>
-    <div>Travel guide</div>
-    
-  </body>
+<head>
+  <link rel="stylesheet" href="assets\styles\styl.css">
+  <script>
+function Showup(){
+  const sidebar = document.getElementById("A")  
+  console.log(sidebar)
+  sidebar.classList.toggle("Hidden")
+}
+
+  </script>
+  <title>
+    Travel guide
+  </title>
+</head>
+
+<body>
+
+  <div class="Header">
+    Travel guide
+    </div>
+
+    <div class="Left Block">
+      <div class="Menu" onclick="Showup()"><img src="menu20x20.jpg"></div>
+      <div id="A" class="Sidebar Hidden"></div>
+    </div>
+  
+  <div class="Footer"></div>
+
+ 
+
+</body>
+
 </html>

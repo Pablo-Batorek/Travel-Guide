@@ -1,14 +1,28 @@
 body {
   /* background-color: rgb(18, 112, 18); */
 }
-div{
-  background-color: darkkhaki;
-  margin: 5px;
-  padding: 10px;
-}
-.a {
-background-color: yellow;
-}
-.a div.b {
+
+.Header {
 background-color: teal;
+}
+.Menu{
+  background-color: darkgreen;
+  width: 20px;
+  cursor: pointer;
+}
+.Left{
+  background-color: darkmagenta;
+  width: 40px;
+  height: 40px;
+}
+.Sidebar{
+  background-color:goldenrod;
+  width: 200px;
+  height: 1000px;
+}
+.Hidden{
+  visibility: hidden;
+}
+#A{
+
 }
